@@ -1,0 +1,15 @@
+https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png
+https://mobirise.com/extensions/organicamp/assets/images/logo1.jpg
+
+-- Testimonial images
+https://mobirise.com/extensions/organicamp/assets/images/face5.jpg
+https://mobirise.com/extensions/organicamp/assets/images/face6.jpg
+https://mobirise.com/extensions/organicamp/assets/images/face7.jpg
+
+-- Left images
+https://mobirise.com/extensions/organicamp/assets/images/19.jpg
+-- Right Background images
+https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png
+
+--Video URL
+https://player.vimeo.com/video/275412279

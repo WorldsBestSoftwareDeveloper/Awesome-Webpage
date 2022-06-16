@@ -86,22 +86,7 @@ main img {
 }
 
 
-#one i {
-    font-size: 90px;
-    color: white;
-}
-
-#two i {
-    font-size: 90px;
-    color: white;
-}
-
-#three i {
-    font-size: 90px;
-    color: white;
-}
-
-#four i {
+#one i, #two i, #three i, #four i {
     font-size: 90px;
     color: white;
 }
@@ -117,16 +102,16 @@ main img {
     padding: 30px;
 }
 
-#fresh p {
+.fresh p {
     color: green
 }
 
-#vegan-text p{
+.vegan-text p{
     font-size: 40px;
     margin: 0;
 }
 
-#radish-text p {
+.radish-text p {
     color: rgba(98, 98, 98, 0.913);
     font-size: 17px;
 }
@@ -134,33 +119,30 @@ main img {
 #grid-container-vegan {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    height: 55vh;
+    padding: 40px;
 }
 
-#cam {
+#cam, #ket, #twit, #weix {
     box-sizing: border-box;
     text-align: center;
-
-    width: 20vw
+    width: 20vw;
 }
 
-#ket {
+#cam i, #ket i, #twit i, #weix i {
+    font-size: 62px;
+    color: white;
     box-sizing: border-box;
-    text-align: center;
-
-    width: 20vw
+    background-color: rgba(183, 150, 18, 0.943);
+    padding: 32px 32px;
+    border-radius: 50%;
 }
 
-#twit {
-    box-sizing: border-box;
-    text-align: center;
-
-    width: 20vw
+#cam h2, #ket h2, #twit h2, #weix h2 {
+    font-size: 30px;
 }
 
-#weix {
-    box-sizing: border-box;
-    text-align: center;
-
-    width: 20vw
+#cam p, #ket p, #twit p, #weix p {
+    font-size: 20px;
+    color: gray
 }
-

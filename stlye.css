@@ -1,5 +1,5 @@
 body {
-    width: 0;
+    margin: 0;
     font-family: ;
 }
 
@@ -46,3 +46,121 @@ main img {
     width: 99vw;
     height: 100vh;
 }
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: flex-start;
+}
+
+#one {
+    background-color:  #36a48ae7;;
+    width: 25vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px 40px;
+}
+
+#two {
+    background-color: #4da155c0;
+    width: 25vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px 40px;
+}
+
+#three {
+    background-color: burlywood;
+    width: 25vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px 40px;
+}
+
+#four {
+    background-color: rgb(221, 159, 169);
+    width: 25vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px 40px;
+}
+
+
+#one i {
+    font-size: 90px;
+    color: white;
+}
+
+#two i {
+    font-size: 90px;
+    color: white;
+}
+
+#three i {
+    font-size: 90px;
+    color: white;
+}
+
+#four i {
+    font-size: 90px;
+    color: white;
+}
+
+#vegan-section {
+    background-color: rgba(237, 216, 188, 0.546);
+    margin: 0;
+}
+
+#vegan-text-wrap {
+    text-align: center;
+    /* it removed the extra text space */
+    padding: 30px;
+}
+
+#fresh p {
+    color: green
+}
+
+#vegan-text p{
+    font-size: 40px;
+    margin: 0;
+}
+
+#radish-text p {
+    color: rgba(98, 98, 98, 0.913);
+    font-size: 17px;
+}
+
+#grid-container-vegan {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#cam {
+    box-sizing: border-box;
+    text-align: center;
+
+    width: 20vw
+}
+
+#ket {
+    box-sizing: border-box;
+    text-align: center;
+
+    width: 20vw
+}
+
+#twit {
+    box-sizing: border-box;
+    text-align: center;
+
+    width: 20vw
+}
+
+#weix {
+    box-sizing: border-box;
+    text-align: center;
+
+    width: 20vw
+}
+

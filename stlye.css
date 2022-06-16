@@ -1,0 +1,48 @@
+body {
+    width: 0;
+    font-family: ;
+}
+
+#topbar {
+    width: 90vw;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#left img {
+    width: 50px;
+}
+
+#right p {
+    transform: translate(-92px);
+    padding: 1px 10px
+}
+
+#button p {
+    background-color: rgba(130, 189, 41, 0.619);
+    padding: 7px 30px;
+    color: white;
+    border-radius: 4px;
+}
+
+main img {
+    width: 99vw;
+    height: 100vh;
+}
